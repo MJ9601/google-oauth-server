@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Users\mohammadjavad\scoop\apps\nodejs16\current\node.exe C:\Users\mohammadjavad\scoop\apps\yarn\current\bin\yarn.js add express
+
+PATH: 
+  C:\Program Files\PowerShell\7;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\Vim\vim82;C:\Program Files\Neovim\/bin;C:\Program Files\Git\cmd;C:\Users\mohammadjavad\AppData\Roaming\nvm;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\PowerShell\7\;C:\Users\mohammadjavad\scoop\apps\nodejs16\current;C:\Users\mohammadjavad\scoop\apps\nodejs16\current\bin;bin;bin;bin;C:\Users\mohammadjavad\scoop\apps\nvm\current\nodejs\nodejs;bin;bin;C:\Users\mohammadjavad\scoop\apps\yarn\current\global\node_modules\.bin;C:\Users\mohammadjavad\scoop\apps\yarn\current\bin;bin;C:\Users\mohammadjavad\scoop\shims;C:\Ruby30-x64\bin;C:\Users\mohammadjavad\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mohammadjavad\AppData\Local\Programs\Python\Python39\;C:\Users\mohammadjavad\AppData\Local\Microsoft\WindowsApps;C:\Users\mohammadjavad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\mohammadjavad\AppData\Local\GitHubDesktop\bin;C:\Users\mohammadjavad\AppData\Local\Programs\mongosh\;C:\Program Files\heroku\bin;C:\Users\mohammadjavad\AppData\Roaming\npm;C:\Users\mohammadjavad\scoop\apps\nvm\current;C:\Users\mohammadjavad\scoop\persist\nvm\nodejs\nodejs;C:\Users\mohammadjavad\scoop\apps\nvm\current;C:\Users\mohammadjavad\scoop\persist\nvm\nodejs\nodejs;C:\Users\mohammadjavad\scoop\apps\nvm\current;C:\Users\mohammadjavad\scoop\persist\nvm\nodejs\nodejs
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
