@@ -12,4 +12,7 @@ g3lX8fOc1HJekMlPbA/u3AMkTXgfZPap4HQG8hhIAhER7R2MZpt7a44VCwWa3TXz
 kOLKyEWtg/yF88REQ3rsllb0oRKi4qx3sLtmRgchqmemk91YrgjI8aE3QZwrNSrN
 /M2RJ3Jqfky1uQb9AgMBAAE=
 -----END PUBLIC KEY-----`,
+  clientId: process.env.CLIENT_ID as string,
+  clientSecret: process.env.CLIENT_SECRET as string,
+  oAuth2RedirectUrl: process.env.OAUTH2_REDIRECT_URL as string,
 };

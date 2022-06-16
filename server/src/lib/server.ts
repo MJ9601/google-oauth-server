@@ -3,6 +3,7 @@ import cors from "cors";
 import config from "config";
 import cookieParser from "cookie-parser";
 import routes from "./routes";
+import deserilizeUser from "../middleware/deserializeUser.middleware";
 
 const server = () => {
   const app = express();
@@ -15,6 +16,7 @@ const server = () => {
   );
   app.use(cookieParser());
   app.use(express.json());
+  app.use(deserilizeUser);
 
   routes(app);
 

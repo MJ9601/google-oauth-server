@@ -1,5 +1,6 @@
 import config from "config";
-import jwt from "jsonwebtoken";
+import jwt, { JwtPayload } from "jsonwebtoken";
+import { GoogleOAuthTokenDecoded } from "../../typing";
 
 const privateKey = config.get<string>("privateKey");
 const publicKey = config.get<string>("publicKey");

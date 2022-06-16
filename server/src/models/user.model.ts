@@ -6,6 +6,7 @@ export interface UserDocument extends Document {
   picture?: string;
   createdAt: Date;
   updatedAt: Date;
+  profileVerified: boolean;
 }
 
 const userSchema = new Schema(
@@ -13,6 +14,7 @@ const userSchema = new Schema(
     email: { required: true, unique: true, type: String },
     username: { required: true, type: String },
     picture: { type: String },
+    profileVerified: { type: String, default: false },
   },
   {
     timestamps: true,
